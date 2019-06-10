@@ -10,3 +10,6 @@ The bots are leveraging tweepy python library. Feel free to add more bots :)
 - Generate the Consumer API keys and Acess Tokens.
 
 
+
+Note: Inspired by RealPython Tutorials
+https://realpython.com/twitter-bot-python-tweepy/

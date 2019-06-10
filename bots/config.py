@@ -4,16 +4,7 @@ import os
 
 logger = logging.getLogger()
 
-#print(os.getenv('CONSUMER_KEY', "hello"))
-#print(os.environ['CONSUMER_KEY'])
-print(os.environ['CONSUMER_KEY'])
-#print os.environ
-
 def create_api():
-   # consumer_key = unicode(str(os.getenv("CONSUMER_KEY")), "utf-8")
-   # consumer_secret = unicode(str(os.getenv("CONSUMER_SECRET")), "utf-8")
-   # access_token = unicode(str(os.getenv("ACCESS_TOKEN")), "utf-8")
-   # access_token_secret = unicode(str(os.getenv("ACCESS_TOKEN_SECRET")), "utf-8")
     
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
